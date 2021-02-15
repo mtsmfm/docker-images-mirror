@@ -22,8 +22,31 @@ jobs:
           - registry.hub.docker.com/library/postgres:12.6-alpine
           - registry.hub.docker.com/library/postgres:13.2-alpine
           - registry.hub.docker.com/library/redis:6.0.10-alpine
-          - registry.hub.docker.com/selenium/standalone-chrome:88.0
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-oxygen
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-palladium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-radium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-selenium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-titanium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-uranium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-vanadium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-xenon
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-yttrium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-zinc
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-zirconium
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200326
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200409
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200515
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200525
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200719
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200730
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20200826
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20201010
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20201117
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20201119
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20210105
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59-20210128
           - registry.hub.docker.com/selenium/standalone-chrome:3.141.59
+          - registry.hub.docker.com/selenium/standalone-chrome:88.0
 
     steps:
       - uses: actions/checkout@v1
