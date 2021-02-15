@@ -23,6 +23,7 @@ jobs:
           - registry.hub.docker.com/library/postgres:13.2-alpine
           - registry.hub.docker.com/library/redis:6.0.10-alpine
           - registry.hub.docker.com/selenium/standalone-chrome:88.0
+          - registry.hub.docker.com/selenium/standalone-chrome:3.141.59
 
     steps:
       - uses: actions/checkout@v1
